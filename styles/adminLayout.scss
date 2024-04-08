@@ -1,0 +1,13 @@
+.admin-layout {
+
+    .admin-main {
+        display: flex;
+        
+        .main {
+            flex: auto;
+            padding: $globalPadding;
+            display: block;
+        }
+
+    }
+}

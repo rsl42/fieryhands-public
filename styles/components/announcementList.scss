@@ -1,0 +1,37 @@
+.announcement-list {
+    &__item {
+        padding: 0;
+        &:hover {
+            cursor: pointer;
+        }
+        .announcement {
+            display: flex;
+            padding: 6px 12px;
+            color: $gray-900;
+            &__image {
+                width: 200px;
+                height: 150px;
+                object-fit: cover;
+                border-radius: 6px;
+                margin-right: 12px;
+            }
+            &__content {
+                flex: 1;
+            }
+            &__heading {
+                display: flex;
+                justify-content: space-between;
+                align-items: baseline;
+            }
+            &__title {
+                font-size: 20px;
+            }
+            &__price {
+                font-size: 24px;
+            }
+            &__details {
+                list-style: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.filter {
+    padding: 12px;
+    &__first-line {
+        display: flex;
+        gap: 12px;
+    }
+    &__additional {
+        margin-top: 12px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        .rs-picker-select {
+            width: calc((100% - 12px) / 2);
+        }
+    }
+}
